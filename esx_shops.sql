@@ -9,6 +9,11 @@ CREATE TABLE `shops` (
 	PRIMARY KEY (`id`)
 );
 
+INSERT INTO `items` (name, label, limit) VALUES 
+	('water', 'Eau', 10),
+	('bread', 'Pain', 10)
+;
+
 INSERT INTO `shops` (store, item, price) VALUES
 	('TwentyFourSeven','bread',30),
 	('TwentyFourSeven','water',15),
